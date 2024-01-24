@@ -1,0 +1,463 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+#dec{
+    height:50px;
+    width:70px;
+    margin-top:10px;
+    margin-right:230px;
+    margin-left: 90px;
+}
+#decore{
+    display:inline-block;
+}
+a{
+    margin-right:30px;
+    margin-left:20px;
+}
+#navbar{
+    height:30px;
+    display:inline-block;
+    text-decoration-color: black;
+    font-weight: bold;
+}
+.grid_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin-left:60px;
+    margin-right:0px
+}
+#traveller{
+    height: 510px;
+    margin-left:0px;
+    margin-right:60px;
+}
+#travel_text{
+    font-size: 4.6em;
+    letter-spacing: -1px;
+    line-height:1;
+    color:rgb(3, 3, 56);
+    font-family: "Poppins";
+}
+p{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+#built{
+    font-family:"Poppins";
+    color:#494b5c;
+    font-weight: 80;
+}
+#find{
+    border:1px solid black;
+    border-radius:10px;
+    background-color:#F1A501;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border:none;
+    color: white;
+    height:50px;
+    width:130px;
+}
+.grid_parent{
+    display: grid;
+    grid-template-columns: 1.8fr 0.2fr;
+    grid-gap: 10px;
+    margin-left:100px;
+}
+#offer{
+    margin-right: 80px;
+    margin-left:70px;
+}
+#plus{
+    margin-right:0px;
+    margin-left:10px;
+}
+.flex-container {
+    display: flex;
+    margin-right: 30px;
+    height: 500;
+    width:800;
+  }
+.flex-container > div {
+    margin-left: 40px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top:10px;
+    height: 400;
+    width: 500;
+  }
+.grid_child{
+    margin-left:40px;
+    padding-right:90px; 
+}
+.cities {
+    display: flex;
+    margin-right: 200px;
+    margin-left:100px;
+
+  }
+  .cities > div {
+    margin: 0px;
+    padding: 20px;
+    font-size: 20px;
+  }
+  #plus_png{
+    margin-left:40px;
+    margin-right:0px;
+    height: 100px;
+    width: 90px;
+}
+#weather, #event, #custom{
+    height:70px;
+    width:70px;
+    margin-top:0px;
+  }
+  #flight{
+    height:100px;
+    width:100px;
+    padding-top:0px;
+    padding-bottom: 0px;
+    margin-top:0px;
+  }
+  .flex-cities {
+    display: flex;
+    margin-right: 90px;
+    margin-left:90px;
+
+  }
+  .flex-cities > div {
+    margin-top: 0px;
+    padding: 0px;
+    font-size: 15px;
+    margin-right: 50px;
+    margin-left:30px;
+  }
+  pre{
+    margin:0px;
+    padding:0px;
+  }
+  .flex-days {
+    display: flex;
+    margin-right: 60px;
+    margin-left:50px;
+    text-align: center;
+  }
+  .flex-days > div {
+    margin-top: 0px;
+    padding: 0px;
+    font-size: 15px;
+    margin-right: 95px;
+    margin-left:50px;
+  }
+  .flex-choose_destinations{
+    display: flex;
+    margin-right: 40px;
+    margin-left:20px;
+    text-align: center; 
+  }
+  .flex-make_payment{
+    display: flex;
+    margin-right: 40px;
+    margin-left:0px; 
+  }
+  .flex-reach_airport{
+    display: flex;
+    margin-right: 20px;
+    margin-left:0px; 
+  }
+  #text{
+    margin-left:35px;
+    margin-right:90px;
+    width:450px;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 350px;
+    width: 1150px;
+    margin-left:110px;
+    margin-right:20px;
+    margin-bottom:100px;
+    border-top-left-radius: 60px;
+    justify-content: center;
+    position: relative;
+  }
+  .flex_ellipse{
+    display: flex;;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .Button_text{
+    display:flex;
+    margin-right:50px;
+    margin-left:100px;
+  }
+  .column {
+    float: left;
+    width: 25%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    padding: 60px 10%;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer-col{
+    width: 20%;
+}
+
+.footer-col h4{
+    position: relative;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.parent_footer{
+  display:flex;
+  width: 800px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    height: 2px;
+    width: 40px;
+}
+
+ul li:not(:last-child){
+    margin-bottom: 8px;
+}
+
+ul li a{
+    display: block;
+    font-size: 19px;
+    text-transform: capitalize;
+    color: #bdb6b6;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+ul li a:hover{
+    color: white;
+    padding-left: 2px;
+}
+
+.links a{
+    display: inline-block;
+    height: 44px;
+    width: 44px;
+    color: white;
+    background-color: beige;
+    margin: 0px 8px 8px 0px;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.links a:hover{
+    color: #4d4f55;
+    background-color: white;
+}
+.parent{
+  display:flex;
+  margin-left:0px;
+  margin-right:100px;
+  justify-content: space-between;
+}
+.small_images, .people, .card_child{
+  display:flex;
+}
+.small_images{
+  margin-right: 200;
+}
+.card2{
+  box-shadow: 0 4px 8px 0 rgba(149, 182, 201, 0.7);
+  transition: 0.3s;
+  height: 350px;
+  width: 300px;
+  margin-left:90px;
+  justify-content: center;
+  position:relative;
+  border-radius: 25px;
+}
+.container{
+  margin-left: 20px;
+}
+.card_child {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  height: 120px;
+  width: 220px;
+  margin-left:200px;
+  justify-content: center;
+  position:absolute;
+  bottom:50px;
+  background-color: white;
+  left:5px;
+  border-radius:25px;
+}
+.card_child:hover {
+  opacity: 1; 
+}
+.slider:hover {
+  opacity: 1;
+}
+#ongoing{
+  width: 80px;
+  margin-bottom: 0px;
+  height: 40px;
+  font-size: small;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+    padding: 40px 0;
+}
+.footer-col{
+   width: 20%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #7a7373;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 50px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+.social-links, .stores{
+  display:flex;
+}
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+.services-grid{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+  margin-left:160px;
+  margin-right: 110px;
+  column-gap: 40px;
+}
+.weather:hover,.flights:hover,.events:hover,.customization:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    justify-content: center;
+}
+.container {
+  padding: 2px 16px;
+  justify-content: center;
+}
+.three_cities{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-left:110px;
+  column-gap: 10px;
+  column-width: 30px;;
+}
+.london,.europe,.rome{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width:330px;
+}
+footer{
+  margin-left:40px;
+  margin-right:40px;
+}
+body{
+  width:100vw;
+  margin-right: 70px;
+  overflow-x:hidden;
+}
+.button-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
