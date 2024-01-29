@@ -1,6 +1,6 @@
 body{
     margin-right: 110px;
-    margin-left: 140px;
+    margin-left: 150px;
     margin-top:20px;
     font-family: "Poppins";
     overflow-x: hidden;
@@ -14,10 +14,10 @@ body{
     margin-bottom:10px;
 }
 #logo{
-    margin-right: 320px;
+    margin-right: 323px;
 }
 #options{
-    margin-top:40px;
+    margin-top:45px;
 }
 a{
     font-size: 16px;
@@ -53,7 +53,7 @@ select{
     background-image: url('./images/traveller2.png');
     background-size: 670px 750px;
     background-repeat:no-repeat;
-    background-position-x: 500px;
+    background-position-x: 520px;
     background-position-y: top;
     height:750px;
     margin-bottom: 130px;
@@ -485,6 +485,6 @@ select{
 .copyright{
     text-align: center;
     margin-top:50px;
-    margin-bottom:40px;
+    margin-bottom:60px;
     color:#585d7f;
 }
