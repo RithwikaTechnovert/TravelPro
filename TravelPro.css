@@ -1,33 +1,35 @@
 body{
-    margin-right: 90px;
-    margin-left: 115px;
+    margin-right: 110px;
+    margin-left: 140px;
+    margin-top:20px;
     font-family: "Poppins";
     overflow-x: hidden;
+    /*-ms-overflow-style: none;*/
 }
 .navbar,.banner{
     display:flex;
     justify-items: auto;
 }
+.navbar{
+    margin-bottom:10px;
+}
 #logo{
-    margin-right: 240px;
+    margin-right: 320px;
 }
 #options{
-    margin-top:30px;
+    margin-top:40px;
 }
 a{
+    font-size: 16px;
     margin-right:40px;
-    font-size: small;
-    font-weight:bold;
-    color:#585d7f;
+    font-weight:normal;
 }
 #sign-up{
     border:solid;
     border-width: 1.5px;
-    padding: 5px;
-    padding-right:15px;
-    padding-left:15px;
+    padding: 10px 20px 10px 20px;
     border-radius: 5px; 
-    width: 50px;
+    width: 90px;
     margin-right: 30px;
 }
 #languages{
@@ -49,72 +51,78 @@ select{
 }
 .banner{
     background-image: url('./images/traveller2.png');
-    background-size: 550px 550px;
+    background-size: 670px 750px;
     background-repeat:no-repeat;
-    background-position-x: 450px;
-    height:650px;
+    background-position-x: 500px;
+    background-position-y: top;
+    height:750px;
+    margin-bottom: 130px;
 }
 #left{
-    margin-top:70px;
-    padding-right:500px;
+    margin-top:80px;
+    padding-right:470px;
     margin-right:20px;
 }
 #left>p{
     margin-top:20px;
-    margin-bottom:20px;
+    margin-bottom:30px;
 }
 #sub_line{
     color:#db6952;
     font-weight: 500px;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 #banner_text{
-    font-size:67px;
+    font-size:83px;
+    padding-right:10px;
     line-height:1.1;
     font-weight: bold;
     color:#181E4B;
+    letter-spacing: -3px;
 }
 #sub_text{
-    font-size:smaller;
-    padding-right: 120px;
+    font-size:16px;
+    padding-right: 200px;
     color: #585d7f;
-}
-#right{
-    margin-top:10px;
-    /*margin-right:10px;*/
-    padding-right:40px;
+    line-height:1.6;
 }
 #left>button{
     background-color: #F1A501;
     color:white;
     border:none;
-    height:40px;
-    width:120px;
-    padding: 15 15 15 15;
+    height:60px;
+    width:170px;
+    padding: 10 10 10 10;
     border-radius: 10px;
     font-family: "Poppins";
+    font-size:17px;
+    margin-top:10px;
 }
 .services-heading{
     margin-top: 0px;
     text-align: center;
     color:#585d7f;
     font-weight: bold;
+    font-size:18px;
     position:relative;
+    margin-bottom:80px;
 }
 #offer{
     margin-top: 5px;
-    font-size:35px;
+    font-size:53px;
     font-weight:bold;
     color:#181E4B;
 }
 .services-heading>img{
     position:absolute;
-    right:-65px;
+    right:-80px;
     top:-15px;
 }
 .services-block {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 70px;
+    margin-bottom: 130px;
     margin-right: 25px;
     margin-left:20px;
 }
@@ -122,7 +130,7 @@ select{
     width: 21%; 
     padding: 5px;
     text-align: center;
-    height: 240px;
+    height: 260px;
 }
 .service:hover{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -134,22 +142,31 @@ select{
     padding: 5px 5px 5px 5px;
     color:#282754;
 }
-.service-description>small{
+.service-description>p{
     color:#585d7f;
-    padding: 10px 10px 10px 10px;
+    padding: 15px 15px 15px 15px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.service-description>h3{
+    margin-top:5px;
+    margin-bottom:5px;
 }
 .destination-heading{
     text-align:center;
+    margin-bottom:30px;
 }
 .destination-heading>p{
-    color: #585d7f;
+    color: #44475e;
     font-weight:200px;
+    font-size: 20px;
+    margin-bottom:10px;
 }
 #heading{
     margin-top:10px;
-    font-size: 40px;
-    font-weight: 510;
-    color:#181E4B;
+    font-size: 50px;
+    font-weight: normal bold;
+    color:#0b0f2b;
 }
 
 .destinations{
@@ -161,18 +178,22 @@ select{
     color:#585d7f;
 }
 .city{
-    border-radius: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    border-radius: 25px;
     margin-right:5px;
+    outline: none;
 }
 .city>img{
-    height:280px;
-    width:320px;
+    height:345px;
+    width:377px;
+    margin-bottom:10px;
 }
 .city_name, .trip_details{
     padding-left: 20px;
     padding-right:20px;
     display:flex;
+}
+.city_name>div>p{
+    font-size:18px;
 }
 .city_name{
     justify-content: space-between;
@@ -183,7 +204,7 @@ select{
     margin-bottom:0px;
 }
 .trip_details>div>img{
-    margin-right:10px;
+    margin-right:20px;
 }
 #choose, #reach, #payment{
     display: flex;
@@ -198,30 +219,38 @@ select{
 }
 .left-description{
     margin-right:20px;
-    padding-right:100px;
+    padding-right:150px;
     margin-top:0px;
     margin-bottom:0px;
     color:#585d7f;
+    font-weight:bold;
 }
 .left-description>#book{
-    font-size: 40px;
+    font-size: 50px;
     margin-top:0px;
     margin-bottom:5px;
-    font-weight:700;
+    font-weight:bold;
     color:#181E4B;
+}
+.descript{
+    margin-bottom:20px;
 }
 .descript>p{
     margin-top:0px;
     margin-bottom:0px;
-    font-size:small;
+    padding-right: 80px;
+    font-size:16px;
     color:#585d7f;
+    font-weight: lighter;
+    line-height:1.2;
 }
 .descript>#head{
     font-weight: bold;
     color:#585d7f;
+    margin-bottom:5px;
 }
 .icon>img{
-    margin-right:10px;
+    margin-right:20px;
 }
 .people{
     display: flex;
@@ -238,10 +267,14 @@ select{
 .card-parent{
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
-    padding: 15px 15px 15px 15px;
+    padding: 15px 25px 25px 15px;
     margin-right:120px;
-    margin-top:70px;
-    width:300px;
+    margin-top:90px;
+    width:310px;
+}
+.trip_details>div>span>small{
+    font-size:17px;
+    font-weight:lighter;
 }
 .details,.details2{
     font-size: small;
@@ -253,7 +286,7 @@ select{
 }
 .details>#trip-to-greece{
     color:black;
-    font-size:large
+    font-size:large;
 }
 .details2{
     margin-top:0px;
@@ -264,11 +297,11 @@ select{
     display: flex;
     position: absolute;
     border-radius: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     width:250px;
     right:10px;
-    bottom:55px;
-    left:180px;
+    bottom:110px;
+    left:176px;
     background-color: white;
     padding:15px 15px 15px 15px;
 }
@@ -299,9 +332,10 @@ select{
 }
 .subscribe{
     background-color: #FFF6EC;
-    height:350px;
+    height:400px;
     position:relative;
     border-top-left-radius:100px;
+    margin-bottom:140px;
 }
 .send_blue_top{
     position:absolute;
@@ -312,7 +346,7 @@ select{
     /*justify-content: space-between;*/
     text-align: center;
     position:relative;
-    top:-170px;
+    top:-140px;
     bottom:50px;
     padding-right:100px;
     padding-left:100px;
@@ -323,26 +357,39 @@ select{
     display:flex;
     justify-content: center;
     position:absolute;
-    left:260px;
-    bottom:90px;
+    left:300px;
+    bottom:80px;
+    margin-top:30px;
+
 }
-.subscribe-flex>span>img{
+.subscribe-flex-box{
+    background-color: white;
+    display: flex;
+    margin-right:10px;
+}
+#flex-image{
+    margin-top:10px;
+    margin-left:10px;
+}
+.subscribe-flex-box>img{
     margin-top:10px;
     left:-10px;
+    margin-left:10px;
 }
-.subscribe-flex >span>input{
-    height:55px;
+.subscribe-flex-box>span>input{
+    height:56px;
     width: 250px;
     border:none;
-    border-radius:10px;
-    margin-right:5px;
+    border-radius:15px;
+    margin-right:10px;
     font-family: "Poppins";
     outline:none;
     padding-left:20px;
+    padding-bottom:10px;
 }
 .subscribe-flex>span>button{
-    height:55px;
-    width: 150px;
+    height:60px;
+    width: 160px;
     border:none;
     border-radius: 10px;
     background-color: #FF8D63;
@@ -355,11 +402,10 @@ select{
     border:none;
     height:50px;
 }
-
 .bg_one{
     position:relative;
-    bottom:0px;
-    top:80px;
+    bottom:170px;
+    top:100px;
 }
 .bg_one>img{
     opacity:0.1;
@@ -376,47 +422,62 @@ select{
 }
 .plus_two{
     position:absolute;
-    right:-60px;
-    bottom:-110px;
+    right:-110px;
+    bottom:-120px;
 }
 .plus_two>img{
-    transform:rotate(360deg);
-    transform:scaleX(-1);
+    /*transform:rotate(360deg);
+    transform:scaleX(-1);*/
+    transform: translate(0,-11px) rotate(90deg);
 }
 .row{
     display:flex;
     margin-top:150px;
+    justify-content: auto;
+    row-gap:30px;
 }
 .column1>p{
-    font-size: smaller;
     justify-content: center;
     color:#585d7f;
-    padding-right: 40px;
-    margin-right:20px;
+    margin-right:10px;
+    padding-right:30px;
+    width:200px;
+    line-height:1.1;
 }
 .column1{
-    top:0px;
+    margin-top:-20px;
+    margin-right:40px;
 }
 .column1>h1{
     color:#181E4B;
+    font-size: 40px;
+    font-weight:light;
 }
-.column2, .column3, .column4, .column5{
-    margin-right:60px;
+.column1,.column2, .column3, .column4, .column5{
+    margin-right:100px;
 }
-.column1>p, .column2>p, .column3>p, .column4>p, .column5>p{
-    font-size: small;
+.column2>p, .column3>p, .column4>p, .column5>p{
+    font-size: large;
     color:#585d7f;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.column2>h3, .column3>h3, .column4>h3{
+    margin-bottom:20px;
 }
 .column5{
     margin-top:30px;
     margin-right:auto;
 }
-.column5>span>img{
-    margin-right:20px;
+.social-icons{
+    margin-bottom:20px;
+}
+.social-icons> span>img{
+    margin-right:25px;
 }
 .download>div>img{
     margin-right: 10px;
-    border-radius:25px;
+    border-radius:20px;
 }
 .download{
     display: flex;
