@@ -4,292 +4,298 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TravelPro</title>
     <link rel="stylesheet" href="TravelPro.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-    <div class="navbar">
-        <div id="logo">
-            <img src="./images/logo.png" alt="logo" height="80px" width="110px">
-        </div>
-        <div id="options">
-            <a>Destinations</a>
-            <a>Hotels</a>
-            <a>Flights</a>
-            <a>Bookings</a>
-            <a>Login</a>
-            <a id="sign-up">Sign Up</a>
-            <select id="languages">
-                <option value="EN" selected><small>EN</small></option>
-                <option value="HIN"><small>HIN</small></option>
-                <option value="BN"><small>BN</small></option>
+    <nav class="navbar">
+        <section class="logo">
+            <img src="./images/logo.png" alt="logo">
+        </section>
+        <ul class="options-list">
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">Hotels</a></li>
+            <li><a href="#">Flights</a></li>
+            <li> <a href="#">Bookings</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a class="sign-up">Sign Up</a></li>
+            <li><select>
+                <option value="EN" selected>EN</option>
+                <option value="HIN">HIN</option>
+                <option value="BN">BN</option>
+            </select>    </li>
+        </ul>
+        <!--<section class="options">
+            <a href="#">Destinations</a>
+            <a href="#">Hotels</a>
+            <a href="#">Flights</a>
+            <a href="#">Bookings</a>
+            <a href="#">Login</a>
+            <a class="sign-up">Sign Up</a>
+            <select>
+                <option value="EN" selected>EN</option>
+                <option value="HIN">HIN</option>
+                <option value="BN">BN</option>
             </select>
-        </div>
-    </div>
+        </section>-->
+    </nav>
     </header>
 
 
 
-    <div class="banner">
-        <div id="left">
-            <p id="sub_line">BEST DESTINATIONS AROUND THE WORLD</p>
-            <p id="banner_text">Travel, enjoy and live a new and full life</p>
-            <p id="sub_text">Built wicket longer admire do barton vanity itself do in it Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the</p>
+    <section class="banner">
+        <section class="text-part">
+            <p class="sub-line">BEST DESTINATIONS AROUND THE WORLD</p>
+            <p class="banner-text">Travel, enjoy and live a new and full life</p>
+            <p class="sub-text">Built wicket longer admire do barton vanity itself do in it Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the</p>
             <button>Find out more</button>
-        </div>
-    </div>
+        </section>
+    </section>
 
 
 
-    <div class="services-heading">
-        <div>
+    <section class="services-heading">
+        <section>
            <p>CATEGORY</p>
-           <p id="offer">We Offer Best Services</p>
-        </div>
-        <img src="./images/plus.png" height="160px" width="180px">
-    </div>
+           <p class="offer">We Offer Best Services</p>
+        </section>
+        <img src="./images/plus.png" alt="plus">
+    </section>
 
 
 
-    <div class="services-block">
-        <div class="service" id="weather">
-            <img src="./images/weather.png">
-            <div class="service-description">
+    <section class="services-block">
+        <article class="service">
+            <img src="./images/weather.png" alt="weather">
+            <section class="service-description">
                 <h3>Calculated Weather</h3>
                 <p>Built wicket longer admire do barton vanity itself do in it</p>
-            </div>
-        </div>
+            </section>
+        </article>
 
-        <div class="service">
-            <img src="./images/flight.png" height="80">
-            <div class="service-description">
+        <article class="service">
+            <img src="./images/flight.png" alt="flights" height="80">
+            <section class="service-description">
                 <h3>Best Flights</h3>
                 <p>engrossed listening. Park gate sell they west hard for the</p>
-            </div>
-        </div>
+            </section>
+        </article>
 
-        <div class="service">
-            <img src="./images/event.png">
-            <div class="service-description">
+        <article class="service">
+            <img src="./images/event.png" alt="event">
+            <section class="service-description">
                 <h3>Local Events</h3>
                 <p>barton vanity itself do in it Preferred to men it engrossed listening</p>
-            </div>
-        </div>
+            </section>
+        </article>
 
-        <div class="service">
-            <img src="./images/customization.png">
-            <div class="service-description">
+        <article class="service">
+            <img src="./images/customization.png" alt="custom">
+            <section class="service-description">
                 <h3>Customization</h3>
                 <p>we deliver outsourced aviation services to our customers</p>
-            </div>
-        </div>
-    </div>
+            </section>
+        </article>
+    </section>
 
 
 
-    <div class="destination-heading">
+    <section class="destination-heading">
         <p>Top Selling</p>
-        <p id="heading">Top Destinations</p>
-    </div>
+        <p class="heading">Top Destinations</p>
+    </section>
    
 
 
-    <div class="destinations">
-        <div class="city">
-            <img src="./images/rome.png">
-            <div class="city_name">
-                <div><p>Rome, Italy</p></div>
-                <div><p>$5,42k</p></div>
-            </div>
-            <div class="trip_details">
-                <div>
+    <section class="destinations">
+        <article class="city">
+            <img src="./images/rome.png" alt="Rome">
+            <section class="city-name">
+                <p>Rome, Italy</p>
+                <p>$5,42k</p>
+            </section>
+            <section class="trip-details">
                     <img src="./images/send_black.png" height="20px" width="20px">
-                </div>
-                <div>
-                    <span><small>10 Days Trip</small></span>
-                </div>
-            </div>
-        </div>
+                    <span>10 Days Trip</span>
+            </section>
+        </article>
 
-        <div class="city">
-            <img src="./images/london.jpg">
-            <div class="city_name">
-                <div><p>London, UK</p></div>
-                <div><p>$4.2k</p></div>
-            </div>
-            <div class="trip_details">
-                <div>
+        <article class="city">
+            <img src="./images/london.jpg" alt="London"> 
+            <section class="city-name">
+                <p>London, UK</p>
+                <p>$4.2k</p>
+            </section>
+            <section class="trip-details">
                     <img src="./images/send_black.png" height="20px" width="20px">
-                </div>
-                <div>
-                    <span><small>12 Days Trip</small></span>
-                </div>
-            </div>
-        </div>
+                    <span>12 Days Trip</span>
+            </section>
+        </article>
 
-        <div class="city">
-            <img src="./images/europe.png">
-            <div class="city_name">
-                <div><p>Full Europe</p></div>
-                <div><p>$28k</p></div>
-            </div>
-            <div class="trip_details">
-                <div>
+        <article class="city">
+            <img src="./images/europe.png" alt="Europe">
+            <section class="city-name">
+                <p>Full Europe</p>
+                <p>$28k</p>
+            </section>
+            <section class="trip-details">
                     <img src="./images/send_black.png" height="20px" width="20px">
-                </div>
-                <div>
-                    <span><small>28 Days Trip</small></span>
-                </div>
-            </div>
-        </div>
-    </div>
+                    <span>28 Days Trip</span>
+            </section>
+        </article>
+    </section>
 
 
 
 
-    <div class="booking">
-        <div class="left-description">
+    <section class="booking">
+        <section class="left-description">
             <p>Easy and Fast</p>
-            <p id="book">Book Your Next Trip In 3 Easy Steps</p>
-            <div class="three_steps">
-                <div id="choose">
-                    <div class="icon">
-                        <img id="background" src="./images/sqaure.png" height="25px" width="25px">
-                    </div>
-                    <div class="descript">
-                        <p id="head">Choose Destination</p>
+            <p class="book">Book Your Next Trip In 3 Easy Steps</p>
+            <section class="three-steps">
+                <section class="choose">
+                    <section class="icon">
+                        <img class="background" src="./images/sqaure.png" height="25px" width="25px">
+                    </section>
+                    <section class="descript">
+                        <p class="head">Choose Destination</p>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Urna Totus Tempus</p>
-                    </div>
-                </div>
-                <div id="payment">
-                    <div class="icon">
+                    </section>
+                </section>
+                <section class="payment">
+                    <section class="icon">
                         <img src="./images/payment.png">
-                    </div>
-                    <div class="descript">
-                        <p id="head">Make Payment</p>
+                    </section>
+                    <section class="descript">
+                        <p class="head">Make Payment</p>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Urna Totus Tempus</p>
-                    </div>
-                </div>
-                <div id="reach">
-                    <div class="icon">
+                    </section>
+                </section>
+                <section class="reach">
+                    <section class="icon">
                         <img src="./images/car.png">
-                    </div>
-                    <div class="descript">
-                        <p id="head">Reach Airport on Selected Date</p>
+                    </section>
+                    <section class="descript">
+                        <p class="head">Reach Airport on Selected Date</p>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ur na Totus Tempus</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+                    </section>
+                </section>
+            </section>
+        </section>
 
 
-        <div class="cards">
-            <div class="card-parent">
-                <div>
+        <section class="cards">
+            <article class="card-parent">
+                <section>
                     <img src="./images/girl.jpg" width="320px">
-                </div>
-                <div class="details">
-                    <p id="trip-to-greece">Trip To Greece</p>
+                </section>
+                <section class="details-greece">
+                    <p class="trip-to-greece">Trip To Greece</p>
                     <p>14-29 June| by Robbin john</p>
                     <span><img src="./images/leaf.png"></span>
                     <span><img src="./images/send.png" ></span>
                     <span><img src="./images/send.png"></span>
-                </div>
-                <div class="details2">
-                    <div>
+                </section>
+                <section class="details-people">
+                    <section>
                     <span><img src="./images/towers.png" height="20px" width="20px"></span>
-                    <span id="people-count">24 people going</span>
-                    </div>
+                    <span>24 people going</span>
+                    </section>
                     <span><img src="./images/heart.png"></span>
-                </div>
-            </div>
+                </section>
+            </article>
 
-            <div class="card-child">
-                <div id="image">
+            <article class="card-child">
+                <section class="image">
                     <span><img src="./images/tomb.png" height="40px" width="40px"></span>
-                </div>
-                <div id="details_rome">
+                </section>
+                <section class="details-rome">
                     <small>Ongoing</small>
-                    <p id="trip-to-rome">Trip to rome</p>
+                    <p class="trip-to-rome">Trip to rome</p>
                     <p><span>40%</span> completed</p>
                     <img src="./images/slider_blue.jpg" height="20px" width="100px">
-                </div>
-            </div>
-        </div>
-    </div>
+                </section>
+            </article>
+        </section>
+    </section>
 
 
     
 
-    <div class="subscribe">
-        <div class="bg_one">
+    <section class="subscribe">
+        <section class="bg-spiral-left">
             <img src="./images/back_spiral.png" height="200px">
-            <div class="bg_two">
+            <section class="bg-spiral-right">
                 <img src="./images/back_spiral.png" height="150px" width="200px">
-            </div>
-        </div>
-        <div class="subscribe-text">
-            <h1>Subscribe to get more information, latest news and other interesting offers about Cobham</h1>
-        </div>
-        <div class="subscribe-flex">
-            <div class="subscribe-flex-box">
-            <span><img id="flex-image" src="./images/mail.png" height="30px" width="30px"></span>
-            <span><input type="text" placeholder="Your Email"></span>
-        </div>
+            </section>
+        </section>
+        <section class="subscribe-text">
+            <p>Subscribe to get more information, latest news and other interesting offers about Cobham</p>
+        </section>
+        <section class="subscribe-flex">
+            <section class="subscribe-flex-box">
+            <span><img  class="flex-image" src="./images/mail.png"></span>
+            <span><input class="input-box" type="text" placeholder="Your Email"></span>
+        </section>
             <span><button>Subscribe</button></span>
-        </div>
-        <div class="send_blue_top">
+        </section>
+        <section class="send-blue-top">
             <img src="./images/send_blue.png" height="65px" width="65px">
-        </div>
-        <div class="plus_two">
+        </section>
+        <section class="plus-subscribe">
             <img src="./images/plus.png">
-        </div>
-    </div>
+        </section>
+    </section>
 
 
 
     
     <footer>
-        <div class="row">
-            <div class="column1">
+        <section class="footer">
+            <section class="footer-name">
                 <h1>TravelPro</h1>
-                <p><small>Book your trip in a minute, get full Control for much longer.</small></p>
-            </div>
-            <div class="column2">
+                <p>Book your trip in a minute, get full Control for much longer.</p>
+            </section>
+            <section class="footer-company">
                 <h3>Company</h3>
-                <p>About</p>
-                <p>Careers</p>
-                <p>Mobile</p>
-            </div>
-            <div class="column3">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Mobile</a></li>
+                </ul>
+            </section>
+            <section class="footer-contact">
                 <h3>Contact</h3>
-                <p>Help/FAQ</p>
-                <p>Press</p>
-                <p>Affliates</p>
-            </div>
-            <div class="column4">
+                <ul>
+                    <li><a href="#">Help/FAQ</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Affliates</a></li>
+                </ul>
+            </section>
+            <section class="footer-more">
                 <h3>More</h3>
-                <p>Airlinefees</p>
-                <p>Airline</p>
-                <p>Lowfaretips</p>
-            </div>
+                <ul>
+                    <li><a href="#">Airlinefees</a></li>
+                    <li><a href="#">Airline</a></li>
+                    <li><a href="#"> Lowfaretips</a></li>
+                </ul>
+            </section>
 
-            <div class="column5">
-                <div class="social-icons">
-                <span><img src="./images/fb.png" height="16px" width="18px"></span>
-                <span><img src="./images/insta.jpg" height="18px" width="18px"></span>
-                <span><img src="./images/twitter.jfif" height="18px" width="18px"></span>
-                </div>
-                <p>Discover Our App</p>
-                <div class="download">
-                    <div><img src="./images/play_store.jpg" height="35px" width="90px"></div>
-                    <div><img src="./images/app_store.jpg" height="34px" width="90px"></div>
-                </div>
-            </div>
-        </div>
-        <div class="copyright">
-            <small>All rights reserved@travelpro.com</small>
-        </div>
+            <section class="footer-social">
+                <section class="social-icons">
+                <img src="./images/fb.png" height="16px" width="18px">
+                <img src="./images/insta.jpg" height="18px" width="20px">
+                <img src="./images/twitter.jfif" height="18px" width="18px">
+                </section>
+                <p>Discover our app</p>
+                <section class="download">
+                    <img src="./images/play_store.jpg" height="35px" width="90px">
+                    <img src="./images/app_store.jpg" height="34px" width="90px">
+                </section>
+            </section>
+        </section>
+        <section class="copyright">
+            <p>All rights reserved@travelpro.com</p>
+        </section>
     </footer>
 
 </body>
